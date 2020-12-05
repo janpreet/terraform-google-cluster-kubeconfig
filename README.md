@@ -11,6 +11,8 @@ Use this module to create a GCP managed K8s cluster and generate the kubeconfig.
 - credentials - /path/to/GCP-Key-Json
 - kubeconfig - /path/to/output/kubeconfig
 
+You may also change variables internal to `google_container_cluster` module. Refer to this [Terraform page](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/container_cluster) for more information.
+
 ## Usage
 Example environment variables-
 ```bash
